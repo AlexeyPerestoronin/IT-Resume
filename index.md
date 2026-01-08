@@ -1,3 +1,9 @@
+---
+layout: default
+title: Главная
+---
+
+
 <p style="text-align: center;">
   <img src="./src/avatars.drawio.png" alt="Alt text">
 </p>
@@ -18,7 +24,7 @@
 ## До AI (знания по образованию/памяти/опыту)
 ### Языки программирования
 - C++11-17[^cpp]
-- Python[^python]
+- Python[^python]> 
 - TypeScript[^type-script]
 - Rust[^rust]
 

@@ -1,3 +1,8 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
 /* Базовый стиль для всех статусов */
 .status {
     display: inline-block;

@@ -2,5 +2,5 @@ title: "IT-Resume of Alexey Perestoronin"
 description: "Документация"
 # baseurl: ""
 # url: "https://alexeyperestoronin.github.io"
-show_downloads: false
 theme: jekyll-theme-cayman
+show_downloads: false
