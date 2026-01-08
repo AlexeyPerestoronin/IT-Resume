@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Главная
+title: Alexey Perestoronin IT-Resume
 ---
 
 
