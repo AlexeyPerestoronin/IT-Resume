@@ -5,7 +5,7 @@ title: IT-Resume of Alexey Perestoronin
 
 
 <p style="text-align: center;">
-  <img src="./src/avatars.drawio.png" alt="Alt text">
+  <img src="./Content/avatars.drawio.png" alt="Alt text">
 </p>
 
 
