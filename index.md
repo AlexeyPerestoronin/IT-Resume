@@ -3,10 +3,291 @@ layout: default
 title: IT-Resume of Alexey Perestoronin
 ---
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<p style="text-align: center;">
-  <img src="./Content/avatars.drawio.png" alt="Alt text">
-</p>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .gallery-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            font-size: 28px;
+        }
+
+        .gallery-container {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .gallery-scroll {
+            display: flex;
+            overflow-x: auto;
+            scroll-behavior: smooth; /* Плавная прокрутка */
+            -webkit-overflow-scrolling: touch; /* Инерционный скролл на iOS */
+            scrollbar-width: none; /* Скрыть скроллбар в Firefox */
+            padding: 20px 10px;
+            gap: 20px;
+            cursor: grab;
+        }
+
+        .gallery-scroll::-webkit-scrollbar {
+            display: none; /* Скрыть скроллбар в Chrome/Safari */
+        }
+
+        .gallery-scroll:active {
+            cursor: grabbing;
+        }
+
+        .photo-card {
+            flex: 0 0 auto;
+            width: 300px;
+            height: 400px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .photo-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .photo-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: white;
+            padding: 20px;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .photo-card:hover .photo-caption {
+            transform: translateY(0);
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .nav-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: white;
+            border: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            color: #333;
+        }
+
+        .nav-btn:hover {
+            background: #007bff;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .scroll-indicator {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 14px;
+            opacity: 0.7;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.7; }
+            50% { opacity: 1; }
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .photo-card {
+                width: 250px;
+                height: 350px;
+            }
+            
+            .section-title {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .photo-card {
+                width: 200px;
+                height: 300px;
+            }
+            
+            .nav-btn {
+                width: 40px;
+                height: 40px;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="gallery-section">
+        <h2 class="section-title">Галерея фотографий</h2>
+        
+        <div class="gallery-container">
+            <div class="gallery-scroll" id="galleryScroll">
+                <!-- Фото 1 -->
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Горный пейзаж">
+                    <div class="photo-caption">
+                        <h3>Горный пейзаж</h3>
+                        <p>Альпы, Швейцария</p>
+                    </div>
+                </div>
+                
+                <!-- Фото 2 -->
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba" alt="Море">
+                    <div class="photo-caption">
+                        <h3>Морской берег</h3>
+                        <p>Средиземное море</p>
+                    </div>
+                </div>
+                
+                <!-- Фото 3 -->
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Лес">
+                    <div class="photo-caption">
+                        <h3>Лесная тропа</h3>
+                        <p>Черный лес, Германия</p>
+                    </div>
+                </div>
+                
+                <!-- Фото 4 -->
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="Северное сияние">
+                    <div class="photo-caption">
+                        <h3>Северное сияние</h3>
+                        <p>Лапландия, Финляндия</p>
+                    </div>
+                </div>
+                
+                <!-- Фото 5 -->
+                <div class="photo-card">
+                    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Туман">
+                    <div class="photo-caption">
+                        <h3>Утренний туман</h3>
+                        <p>Озеро Блед, Словения</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-buttons">
+                <button class="nav-btn" onclick="scrollGallery(-1)">←</button>
+                <button class="nav-btn" onclick="scrollGallery(1)">→</button>
+            </div>
+            
+            <div class="scroll-indicator">
+                ← Прокрутите влево/вправо для просмотра →
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const gallery = document.getElementById('galleryScroll');
+        const photoWidth = 300 + 20; // Ширина фото + gap
+        
+        function scrollGallery(direction) {
+            const scrollAmount = photoWidth * direction;
+            gallery.scrollBy({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+        
+        // Плавный скролл мышью с инерцией
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+        
+        gallery.addEventListener('mousedown', (e) => {
+            isDown = true;
+            gallery.style.cursor = 'grabbing';
+            startX = e.pageX - gallery.offsetLeft;
+            scrollLeft = gallery.scrollLeft;
+        });
+        
+        gallery.addEventListener('mouseleave', () => {
+            isDown = false;
+            gallery.style.cursor = 'grab';
+        });
+        
+        gallery.addEventListener('mouseup', () => {
+            isDown = false;
+            gallery.style.cursor = 'grab';
+        });
+        
+        gallery.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - gallery.offsetLeft;
+            const walk = (x - startX) * 2;
+            gallery.scrollLeft = scrollLeft - walk;
+        });
+        
+        // Добавляем интерактивность для тач-устройств
+        gallery.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].pageX - gallery.offsetLeft;
+            scrollLeft = gallery.scrollLeft;
+        });
+        
+        gallery.addEventListener('touchmove', (e) => {
+            const x = e.touches[0].pageX - gallery.offsetLeft;
+            const walk = (x - startX);
+            gallery.scrollLeft = scrollLeft - walk;
+        });
+    </script>
+</body>
 
 
 **Профессиональный программист, архитектор ПО с 6+ летним опытом работы в различных сферах IT-бизнеса.**
