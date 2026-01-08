@@ -1,5 +1,6 @@
 ---
-title: Alexey Perestoronin IT-Resume
+layout: default
+title: IT-Resume of Alexey Perestoronin
 ---
 
 
