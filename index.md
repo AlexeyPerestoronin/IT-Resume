@@ -11,7 +11,7 @@ title: IT-Resume of Alexey Perestoronin
 
 ---
 
-[Больше о себе: мировоззрение, мироощущение, отношение к труду...](./src/Personal%20Info/Life%20attitude.md)
+[Больше о себе: образование, мировоззрение, отношение к труду... **габитус**.](./Content/PersonalInfo/LifeAttitude.html)
 
 ---
 
@@ -28,7 +28,7 @@ title: IT-Resume of Alexey Perestoronin
 
 [^cpp]: основой ЯП для профессиональный деятельности.
 [^python]: ЯП, использующийся мною для решения рутинный и/или любых иных вспомогательный задач, включая задачи бизнеса.
-[^type-script]: ЯП, который я хорошо освоил в компании [MyOffice](./src/Places%20of%20employment/2022-now%20MyOffice.md), т.к. он был выбран в качестве основы написания BDD-тестов.
+[^type-script]: ЯП, который я хорошо освоил в компании [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html), т.к. он был выбран в качестве основы написания BDD-тестов.
 [^rust]: любимый ЯП, на котором я пишу собственные проекты.
 
 ### Технологии
@@ -37,13 +37,13 @@ title: IT-Resume of Alexey Perestoronin
 - Hypervisors[^hypervisors]
 - CI/CD[^ci-cd]
 
-[^bdd-testing]: в компании [MyOffice](./src/Places%20of%20employment/2022-now%20MyOffice.md) являюсь главным разработчиком фреймворка для BDD-тестирования ядра редакторов электронных документов.
+[^bdd-testing]: в компании [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html) являюсь главным разработчиком фреймворка для BDD-тестирования ядра редакторов электронных документов.
 [^dbms]: в найме работал с Postgres и MySQL, в личных проектах использовал Redis, ClickHouse.
 [^hypervisors]: имею опыт работы с [PROXMOX](https://www.proxmox.com/en/): администрирую личный домашний сервер, который я использую как NAS ([Nextcloud](https://nextcloud.com)) и мессенджер с близкими ([Mattermost](https://mattermost.com))
-[^ci-cd]: в [MyOffice](./src/Places%20of%20employment/2022-now%20MyOffice.md) занимался полноценной настройкой CI/CD инфраструктуры через [Jenkins](https://www.jenkins.io) и actions в [Gitea](https://about.gitea.com).
+[^ci-cd]: в [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html) занимался полноценной настройкой CI/CD инфраструктуры через [Jenkins](https://www.jenkins.io) и actions в [Gitea](https://about.gitea.com).
 
 ### System Design
-Имею практический опыт разработки архитектуры ПО в компаниях [Align Technology](./src/Places%20of%20employment/2021-2022%20Align%20Technology.md) и [MyOffice](./src/Places%20of%20employment/2022-now%20MyOffice.md).  
+Имею практический опыт разработки архитектуры ПО в компаниях [Align Technology](./Content/JobPlaces/2021-2022_Align_Technology.html) и [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html).  
 Люблю архитектурное направление как таковое: постоянно совершенствуюсь, расширяю свой кругозор в этом направлении и даже имею [собственную базу знаний по System Design](https://github.com/AlexeyPerestoronin/System-Design).
 
 ## После AI
@@ -59,12 +59,12 @@ title: IT-Resume of Alexey Perestoronin
 - Управление проектом[^project-management]
 - Управление командой разработки[^team-management].
 
-[^project-management]: первый опыт управления проектом получил в компании [Align Technology](./src/Places%20of%20employment/2021-2022%20Align%20Technology.md): на протяжении года занимался планированием и ведением разработки проекта IPSR. На текущий момент в компании [MyOffice](./src/Places%20of%20employment/2022-now%20MyOffice.md) являюсь главным разработчиком ответственным за архитектуру проекта CoreTestsFramework.
-[^team-management]: В [Align Technology](./src/Places%20of%20employment/2021-2022%20Align%20Technology.md) руководил командой разработки состоящей в разное время от 2 до 5 человек (без учёта QA): daily, One2One, year screening, и т.д... Опыт считаю удачным, т.к. нареканий по моему руководству не было, хотя для себя решил, что мне более по душе техническое руководство. На текущий момент нет людей в подчинении.
+[^project-management]: первый опыт управления проектом получил в компании [Align Technology](./Content/JobPlaces/2021-2022_Align_Technology.html): на протяжении года занимался планированием и ведением разработки проекта IPSR. На текущий момент в компании [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html) являюсь главным разработчиком ответственным за архитектуру проекта CoreTestsFramework.
+[^team-management]: В [Align Technology](./Content/JobPlaces/2021-2022_Align_Technology.html) руководил командой разработки состоящей в разное время от 2 до 5 человек (без учёта QA): daily, One2One, year screening, и т.д... Опыт считаю удачным, т.к. нареканий по моему руководству не было, хотя для себя решил, что мне более по душе техническое руководство. На текущий момент нет людей в подчинении.
 
 ---
 
-[Больше о знаниях и умениях: профессиональные интересы, личные проекты...](./src/Personal%20Info/Professional%20interests.md)
+[Больше о знаниях и умениях: профессиональные интересы, личные проекты...](./Content/PersonalInfo/ProfessionalInterests.html)
 
 # Опыт работы:
 - [**2022-now ↑ MyOffice**](./Content/JobPlaces/2022-now_MyOffice.html)
