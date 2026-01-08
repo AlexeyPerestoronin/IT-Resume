@@ -69,11 +69,11 @@ title: IT-Resume of Alexey Perestoronin
 [Больше о знаниях и умениях: профессиональные интересы, личные проекты...](./src/Personal%20Info/Professional%20interests.md)
 
 # Опыт работы:
-- [**2022-now ↑ MyOffice**](./src/Places%20of%20employment/2022-now%20MyOffice.md)
-- [2021-2022 ↑ Align Technology](./src/Places%20of%20employment/2021-2022%20Align%20Technology.md)
-- [2020-2021 ↑ Acronis Infoprotect](./src/Places%20of%20employment/2020-2021%20Acronis%20Infoprotect.md)
-- [2019-2020 ↑ BIFIT](./src/Places%20of%20employment/2019-2020%20BIFIT.md)
-- [2017-2019 ↑ Российская Академия Наук](./src/Places%20of%20employment/2017-2019%20RSA.md)
+- [**2022-now ↑ MyOffice**](./Info/JobPlaces/2022-now_MyOffice.html)
+- [2021-2022 ↑ Align Technology](./Info/JobPlaces/2021-2022_Align_Technology.html)
+- [2020-2021 ↑ Acronis Infoprotect](./Info/JobPlaces/2020-2021_Acronis_Infoprotect.html)
+- [2019-2020 ↑ BIFIT](./Info/JobPlaces/2019-2020_BIFIT.html)
+- [2017-2019 ↑ Российская Академия Наук](./Info/JobPlaces/2017-2019_RSA.html)
 
 В 2021 году имел опыт преподавания на GeekBrains, где подготовил и отчитал курс по C++.
 

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Acronis Infoprotect
+---
+
+
 # [Acronis Infoprotect](https://www.acronis.com/ru/products/cloud/cyber-protect/backup/)
 
 **Должность:** разработчик программного обеспечения
