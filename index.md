@@ -40,7 +40,7 @@ title: IT-Resume of Alexey Perestoronin
 [^bdd-testing]: в компании [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html) являюсь главным разработчиком фреймворка для BDD-тестирования ядра редакторов электронных документов.
 [^dbms]: в найме работал с Postgres и MySQL, в личных проектах использовал Redis, ClickHouse.
 [^hypervisors]: имею опыт работы с [PROXMOX](https://www.proxmox.com/en/): администрирую личный домашний сервер, который я использую как NAS ([Nextcloud](https://nextcloud.com)) и мессенджер с близкими ([Mattermost](https://mattermost.com))
-[^ci-cd]: в [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html) занимался полноценной настройкой CI/CD инфраструктуры через [Jenkins](https://www.jenkins.io) и actions в [Gitea](https://about.gitea.com).
+[^ci-cd]: в [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html) занимался полноценной настройкой CI/CD инфраструктуры через [Jenkins](https://www.jenkins.io) и actions в [Gitea](https://about.gitea.com). Умею настраивать [Conan](https://conan.io/).
 
 ### System Design
 Имею практический опыт разработки архитектуры ПО в компаниях [Align Technology](./Content/JobPlaces/2021-2022_Align_Technology.html) и [MyOffice](./Content/JobPlaces/2022-now_MyOffice.html).  
