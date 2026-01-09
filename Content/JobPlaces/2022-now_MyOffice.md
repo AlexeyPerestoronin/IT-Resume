@@ -1,3 +1,8 @@
+---
+layout: default
+title: MyOffice
+---
+
 # [MyOffice](https://myoffice.ru/)
 
 **Должность:** Ведущий разработчик

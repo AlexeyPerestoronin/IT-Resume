@@ -1,3 +1,8 @@
+---
+layout: default
+title: Align Technology
+---
+
 # Align Technology
 
 **Должность:** Software Developer → Senior Software Developer

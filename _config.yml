@@ -1,0 +1,19 @@
+# Site settings
+title: IT-Resume of Alexey Perestoronin
+email: Alexey.Perestoronin@yandex.ru
+github_username:  AlexeyPerestoronin
+# baseurl: ""
+# url: ""
+
+# Build settings
+# theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
+show_downloads: false
+
+plugins:
+    - jekyll-feed
+    - jekyll-remote-theme
+
+exclude:
+    - WiKi/
+    - README.md

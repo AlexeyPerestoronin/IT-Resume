@@ -1,1 +1,13 @@
-notes.md
+# Ruby local site via Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+tmp
+
+Gemfile.lock
+
+# temporary notes
+_notes.md
+notes.txt
