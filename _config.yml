@@ -16,3 +16,4 @@ plugins:
 
 exclude:
     - WiKi/
+    - README.md
