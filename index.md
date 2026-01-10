@@ -100,4 +100,6 @@ title: IT-Resume of Alexey Perestoronin
 # Больше о себе:
 - [Языки общения, образование, мировоззрение...](./Content/PersonalInfo/LifeAttitude.html)
 - [Профессиональные интересы, личные проекты...](./Content/PersonalInfo/ProfessionalInterests.html)
-- [Сильные и слабые стороны как IT-специалиста...](/Content/PersonalInfo/StrengthsAndWeaknesses.html)
+- [Сильные и слабые стороны как IT-специалиста...](./Content/PersonalInfo/StrengthsAndWeaknesses.html)
+
+---
