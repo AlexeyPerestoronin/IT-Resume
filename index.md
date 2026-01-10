@@ -171,7 +171,7 @@ title: IT-Resume of Alexey Perestoronin
       <div class="details-content">
         <div class="requirements">
           <p>В <a href="./Content/JobPlaces/2022-now_MyOffice.html">MyOffice</a> занимался полноценной настройкой CI/CD инфраструктуры через <a href="https://www.jenkins.io">Jenkins</a> и actions в <a href="https://about.gitea.com">Gitea</a>.</p>
-          <p>Имею хороший опыт в настройке [Conan](https://conan.io/).</p>
+          <p>Имею хороший опыт в настройке <a href="https://conan.io/">Conan</a></p>
         </div>
       </div>
     </details>
