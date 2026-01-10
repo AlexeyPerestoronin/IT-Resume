@@ -11,6 +11,25 @@ title: IT-Resume of Alexey Perestoronin
 
 ---
 
+<div class="contact-container">
+  <button class="contact-toggle" onclick="toggleContact()">
+    📞 Контактная информация
+  </button>
+
+  <div id="contact-info" class="contact-info hidden">
+    <div class="contact-item">
+      <strong>Telegram:</strong>
+      <a href="https://t.me/AlexeyPerestoronin" target="_blank">@AlexeyPerestoronin</a>
+    </div>
+    <div class="contact-item">
+      <strong>Email:</strong>
+      <a href="mailto:example@Alexey.Perestoronin@yandex.ru">Alexey.Perestoronin@yandex.ru</a>
+    </div>
+  </div>
+</div>
+
+---
+
 [Больше о себе: языки, образование, мировоззрение...](./Content/PersonalInfo/LifeAttitude.html)
 
 <details>
