@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What person am I ♥️
+title: What person am I
 ---
 
 # Языки общения

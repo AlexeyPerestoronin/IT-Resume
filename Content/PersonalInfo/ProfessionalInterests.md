@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What are my interests ⚒️
+title: What are my interests
 ---
 
 # Профессиональные интересы
