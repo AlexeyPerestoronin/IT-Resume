@@ -205,7 +205,7 @@ title: IT-Resume of Alexey Perestoronin
       <div class="details-content">
         <div class="requirements">
           <p>В [<a href="./Content/JobPlaces/2021-2022_Align_Technology.html">Align Technology</a> руководил командой разработки состоящей в разное время от 2 до 5 человек (без учёта QA): daily, One2One, year screening, и т.д... (опыт считаю удачным, т.к. нареканий по моему руководству не было, хотя для себя решил, что мне более по душе техническое руководство).</p>
-          <p>На текущий момент нет людей в подчинении не имею.</p>
+          <p>На текущий момент людей в подчинении не имею.</p>
         </div>
       </div>
     </details>
