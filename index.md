@@ -80,7 +80,7 @@ title: IT-Resume of Alexey Perestoronin
       <div class="details-content">
         <div class="requirements">
           <p>ЯП, использующийся мною для решения рутинный и/или любых иных вспомогательный задач, включая задачи бизнеса.</p>
-          <p>Для этих целей мною была создана python-библиотека кроссплатформенной генерации управляющий скриптов <a href="https://pypi.org/project/commandcript/">CommandScript</a></p>
+          <p>Для этих целей мною была создана python-библиотека генерации управляющих скриптов <a href="https://pypi.org/project/commandcript/">CommandScript</a></p>
         </div>
       </div>
     </details>
