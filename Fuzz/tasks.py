@@ -39,9 +39,24 @@ def yapf(ctx):
         .execute(log="yapf.log")
 
 
+@commandcript.script_task()
+def update_doc(ctx):
+    """
+    Update e-document in PDF and DOCX formats by new content of perestoronin-alexey-it-resume.odt
+    """
+    commandcript.ScriptExecutor(ctx.script_dir, ctx.launch)\
+        .add_cwd(f"{commandcript.ENV_CONTEXT.PROJECT_GIT_DIR}/Doc")\
+        .add_commands([
+            ["libreoffice --headless --convert-to pdf perestoronin-alexey-it-resume.odt"],
+            ["libreoffice --headless --convert-to docx perestoronin-alexey-it-resume.odt"],
+            ])\
+        .execute(log="update-doc.log")
+
+
 namespace = commandcript.invoke.Collection()
 namespace.add_task(get_info, name="get-info")
 namespace.add_task(yapf, name="yapf")
+namespace.add_task(update_doc, name="update-doc")
 
 import github_pages
 

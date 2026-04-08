@@ -17,5 +17,6 @@ plugins:
     - jekyll-remote-theme
 
 exclude:
+    - Doc/
     - WiKi/
     - README.md
