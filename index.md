@@ -54,7 +54,21 @@ title: IT-Resume of Alexey Perestoronin
       <li>
         <div class="resume-container">
           <a href="https://github.com/AlexeyPerestoronin/IT-Resume/blob/dowload_resume_button/WiKi/perestoronin-alexey-it-resume.odt?raw=true" download="perestoronin-alexey-it-resume.odt" class="resume-download">
-            perestoronin-alexey-it-resume.odt (RU-Large)
+            ODT (RU-Large)
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="resume-container">
+          <a href="https://github.com/AlexeyPerestoronin/IT-Resume/blob/dowload_resume_button/WiKi/perestoronin-alexey-it-resume.pdf?raw=true" download="perestoronin-alexey-it-resume.odt" class="resume-download">
+            PDF (RU-Large)
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="resume-container">
+          <a href="https://github.com/AlexeyPerestoronin/IT-Resume/blob/dowload_resume_button/WiKi/perestoronin-alexey-it-resume.docx?raw=true" download="perestoronin-alexey-it-resume.odt" class="resume-download">
+            DOCX (RU-Large)
           </a>
         </div>
       </li>
