@@ -7,7 +7,7 @@ title: IT-Resume of Alexey Perestoronin
 {% include gallery.html %}
 
 
-**Профессиональный программист, архитектор ПО с 6+ летним опытом работы в различных сферах IT-бизнеса.**
+**Профессиональный программист, архитектор ПО с многолетним опытом работы в различных сферах IT-бизнеса.**
 
 ---
 
@@ -32,7 +32,7 @@ title: IT-Resume of Alexey Perestoronin
 
 <div class="hr-info-container">
   <button class="hr-info-toggle" onclick="toggleHrInfo()">
-    ❤️ Информация для HR ...
+    🗒️ Информация для HR ...
   </button>
 
   <div id="hr-info-messages" class="hr-info-messages hidden">
@@ -44,10 +44,22 @@ title: IT-Resume of Alexey Perestoronin
 
 ---
 
-<div class="resume-container">
-  <a href="https://github.com/AlexeyPerestoronin/IT-Resume/blob/dowload_resume_button/WiKi/perestoronin-alexey-it-resume.odt?raw=true" download="Алексей_Пересторонин_IT-резюме.odt" class="resume-download">
-    📄 Скачать резюме (RU-Large ODT)
-  </a>
+<div class="e-version-download-container">
+  <button class="e-version-download-toggle" onclick="toggleEVersionDownload()">
+    📄 Скачать резюме в электронном документе ...
+  </button>
+
+  <div id="e-version-download-messages" class="e-version-download-messages hidden">
+    <ol class="numbered-accordion">
+      <li>
+        <div class="resume-container">
+          <a href="https://github.com/AlexeyPerestoronin/IT-Resume/blob/dowload_resume_button/WiKi/perestoronin-alexey-it-resume.odt?raw=true" download="perestoronin-alexey-it-resume.odt" class="resume-download">
+            perestoronin-alexey-it-resume.odt
+          </a>
+        </div>
+      </li>
+    </ol>
+  </div>
 </div>
 
 ---

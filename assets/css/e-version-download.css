@@ -1,0 +1,80 @@
+.e-version-download-container {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.e-version-download-toggle {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #19850d, #6e8efb);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.3s;
+}
+
+.e-version-download-toggle:hover {
+    background: linear-gradient(135deg, #2a9d1d, #778fe0);
+}
+
+.e-version-download-messages {
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+.e-version-download-message-box {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.e-version-download-message-box:last-child {
+    margin-bottom: 0;
+}
+
+.e-version-download-message-box a {
+    color: #0366d6;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.e-version-download-message-box a:hover {
+    text-decoration: underline;
+}
+
+/* resume-container */
+
+.resume-container {
+    margin: 2rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-download {
+    display: block;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #4e28a700, #20c997);
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: left;
+    transition: background 0.3s ease;
+    border: none;
+    box-sizing: border-box;
+}
+
+.resume-download:hover {
+    background: linear-gradient(135deg, #218838, #1ea085);
+    color: white !important;
+}
