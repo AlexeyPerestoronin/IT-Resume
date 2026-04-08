@@ -1,4 +1,4 @@
-# Подготовка и запуск локального тестирования на Ubuntu-22.04
+# Подготовка и запуск локального тестирования на Ubuntu-24.04
 * Настройка OC:
     - `sudo apt update && sudo apt upgrade -y`
     - `sudo apt install -y ruby-full build-essential zlib1g-dev`

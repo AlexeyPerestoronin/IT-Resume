@@ -8,6 +8,10 @@ tmp
 
 Gemfile.lock
 
+# Fuzz
+*.venv
+*.generated
+
 # temporary notes
 _notes.md
 notes.txt
