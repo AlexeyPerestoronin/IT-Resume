@@ -44,6 +44,14 @@ title: IT-Resume of Alexey Perestoronin
 
 ---
 
+<div class="resume-container">
+  <a href="https://github.com/AlexeyPerestoronin/IT-Resume/blob/dowload_resume_button/WiKi/perestoronin-alexey-it-resume.odt?raw=true" download="Алексей_Пересторонин_IT-резюме.odt" class="resume-download">
+    📄 Скачать резюме (RU-Large ODT)
+  </a>
+</div>
+
+---
+
 # Опыт работы:
 - [**2022-now ↑ MyOffice**](./Content/JobPlaces/2022-now_MyOffice.html)
 - [2021-2022 ↑ Align Technology](./Content/JobPlaces/2021-2022_Align_Technology.html)

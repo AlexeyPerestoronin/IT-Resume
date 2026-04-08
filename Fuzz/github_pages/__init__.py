@@ -37,7 +37,7 @@ def prepare_gem(ctx):
 
 
 @commandcript.script_task()
-def launch_local(ctx):
+def launch_local(ctx, kill: bool = False):
     """
     Launch local bundle-server for testing.
     """
