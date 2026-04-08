@@ -12,3 +12,6 @@
 * Запуск локального сервера для тестирования
     - `bundle install`
     - `bundle exec jekyll serve --livereload`
+
+<pid> = sudo lsof -i :4000
+sudo kill -9 <pid>

@@ -37,3 +37,12 @@ def yapf(ctx):
                 f"{commandcript.ENV_CONTEXT.PROJECT_FUZZ_DIR}",
             ])\
         .execute(log="yapf.log")
+
+
+namespace = commandcript.invoke.Collection()
+namespace.add_task(get_info, name="get-info")
+namespace.add_task(yapf, name="yapf")
+
+import github_pages
+
+namespace.add_collection(github_pages.collection, name='github-pages')
