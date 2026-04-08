@@ -32,7 +32,7 @@ title: IT-Resume of Alexey Perestoronin
 
 <div class="hr-info-container">
   <button class="hr-info-toggle" onclick="toggleHrInfo()">
-    🗒️ Информация для HR ...
+    ❤️ Информация для HR ...
   </button>
 
   <div id="hr-info-messages" class="hr-info-messages hidden">
@@ -50,15 +50,15 @@ title: IT-Resume of Alexey Perestoronin
   </button>
 
   <div id="e-version-download-messages" class="e-version-download-messages hidden">
-    <ol class="numbered-accordion">
+    <ul>
       <li>
         <div class="resume-container">
           <a href="https://github.com/AlexeyPerestoronin/IT-Resume/blob/dowload_resume_button/WiKi/perestoronin-alexey-it-resume.odt?raw=true" download="perestoronin-alexey-it-resume.odt" class="resume-download">
-            perestoronin-alexey-it-resume.odt
+            perestoronin-alexey-it-resume.odt (RU-Large)
           </a>
         </div>
       </li>
-    </ol>
+    </ul>
   </div>
 </div>
 

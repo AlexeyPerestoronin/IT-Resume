@@ -4,9 +4,9 @@ function toggleHrInfo() {
 
     if (contactInfo.classList.contains('hidden')) {
         contactInfo.classList.remove('hidden');
-        button.innerHTML = '🗒️ Информация для HR:';
+        button.innerHTML = '❤️ Информация для HR:';
     } else {
         contactInfo.classList.add('hidden');
-        button.innerHTML = '🗒️ Информация для HR ...';
+        button.innerHTML = '❤️ Информация для HR ...';
     }
 }
