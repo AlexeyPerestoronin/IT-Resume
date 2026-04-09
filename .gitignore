@@ -6,7 +6,9 @@ _site
 vendor
 tmp
 
+# locking files
 Gemfile.lock
+*.~lock*.odt#
 
 # Fuzz
 *.venv

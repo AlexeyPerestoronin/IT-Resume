@@ -79,7 +79,7 @@ title: IT-Resume of Alexey Perestoronin
 ---
 
 # Опыт работы:
-- [**2022-now ↑ MyOffice**](./Content/JobPlaces/2022-now_MyOffice.html)
+- [2022-2026 ↑ MyOffice](./Content/JobPlaces/2022-2026_MyOffice.html)
 - [2021-2022 ↑ Align Technology](./Content/JobPlaces/2021-2022_Align_Technology.html)
 - [2020-2021 ↑ Acronis Infoprotect](./Content/JobPlaces/2020-2021_Acronis_Infoprotect.html)
 - [2019-2020 ↑ BIFIT](./Content/JobPlaces/2019-2020_BIFIT.html)
@@ -279,6 +279,5 @@ title: IT-Resume of Alexey Perestoronin
 # Больше о себе:
 - [Языки общения, образование, мировоззрение...](./Content/PersonalInfo/LifeAttitude.html)
 - [Профессиональные интересы, личные проекты...](./Content/PersonalInfo/ProfessionalInterests.html)
-- [Сильные и слабые стороны как IT-специалиста...](./Content/PersonalInfo/StrengthsAndWeaknesses.html)
 
 ---
